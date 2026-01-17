@@ -1,0 +1,49 @@
+# --- System & Mac Metadata ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Shell History & Logs (NEVER commit these) ---
+.bash_history
+.zsh_history
+.zhistory
+*.log
+.lesshst
+.viminfo
+
+# --- Secrets & Keys (The Danger Zone) ---
+# SSH keys (just in case you accidentally moved them)
+.ssh/
+id_rsa
+id_ed25519
+*.pem
+*.key
+*.pub
+
+# GPG / PGP
+.gnupg/
+
+# --- Application Specific Secrets ---
+
+# GitHub CLI - tracks config.yml but IGNORES auth token
+**/gh/hosts.yml
+**/gh/hosts.yaml
+
+# AWS / Cloud credentials
+.aws/
+.azure/
+.gcloud/
+
+# Netrc (often holds login data)
+.netrc
+
+# --- Editor Swaps/Backups ---
+*.swp
+*.swo
+*~
+*.bak
+
+# --- Miscellaneous ---
+# If you accidentally dragged your Downloads folder in...
+Downloads/
